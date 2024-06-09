@@ -1,3 +1,29 @@
 974. Subarray Sums Divisible by K
 Code:
 
+
+int subarraysDivByK(vector<int>& nums, int k) {
+    unordered_map<int, int> remainders;
+    remainders[0] = 1; // Initialize with 0 remainder to handle subarrays starting from index 0
+
+    int currentSum = 0;
+    int cnt = 0;
+
+    for (int i = 0; i < nums.size(); i++) {
+        currentSum += nums[i]; // Update the cumulative sum
+        int remainder = currentSum % k;
+
+        // Adjust the remainder to be positive
+        if (remainder < 0) {
+            remainder += k;
+        }
+
+        // If the remainder is already in the map, it means we found a valid subarray
+        cnt += remainders[remainder];
+
+        // Update the frequency of the current remainder
+        remainders[remainder]++;
+    }
+
+    return cnt;
+}
