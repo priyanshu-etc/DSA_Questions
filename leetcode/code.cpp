@@ -1,8 +1,8 @@
-17-06-2024
-Leetcode POTD:
+// 17-06-2024
+// Leetcode POTD:
 
-633. Sum of Square Numbers
-CODE:
+// 633. Sum of Square Numbers
+// CODE:
 
 class Solution {
 public:
