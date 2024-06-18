@@ -2,6 +2,7 @@
 Code:
 
 
+
 int subarraysDivByK(vector<int>& nums, int k) {
     unordered_map<int, int> remainders;
     remainders[0] = 1; // Initialize with 0 remainder to handle subarrays starting from index 0
