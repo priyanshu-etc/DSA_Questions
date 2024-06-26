@@ -1,8 +1,4 @@
-Leetcode POTD
-Date: 10-16-2024
-
-1051. Height Checker
-Code:
+// CODE:
 
 class Solution {
 public:
