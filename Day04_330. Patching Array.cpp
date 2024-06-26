@@ -1,8 +1,6 @@
-16-06-2024
-Leetcode POTD
-330. Patching Array
 
-CODE:
+
+// CODE:
 
 class Solution {
 public:
