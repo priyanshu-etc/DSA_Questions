@@ -1,8 +1,8 @@
-Leetcode POTD
-Date: 15-06-2024 
-502. IPO
+// Leetcode POTD
+// Date: 15-06-2024 
+// 502. IPO
 
-CODE:
+// CODE:
 
 class Solution {
 public:
