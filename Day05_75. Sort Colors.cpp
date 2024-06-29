@@ -1,9 +1,9 @@
-Leetcode POTD
-Date: 12-06-2024
+// Leetcode POTD
+// Date: 12-06-2024
 
-75. Sort Colors
 
-CODE:
+
+// CODE:
 
 class Solution {
 public:
