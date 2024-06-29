@@ -1,9 +1,9 @@
-Leetcode POTD
-2037. Minimum Number of Moves to Seat Everyone
-Date: 13-16-2024
+// Leetcode POTD
+// 2037. Minimum Number of Moves to Seat Everyone
+// Date: 13-16-2024
 
 
-CODE:
+// CODE:
 
 class Solution {
 public:
