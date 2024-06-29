@@ -1,8 +1,9 @@
-14-06-2024
-Leetcode POTD
-945. Minimum Increment to Make Array Unique
+// 14-06-2024
+// Leetcode POTD
+// 945. Minimum Increment to Make Array Unique
 
-CODE:
+// CODE:
+
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& nums) {
