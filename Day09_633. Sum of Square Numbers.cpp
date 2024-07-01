@@ -7,7 +7,7 @@
 class Solution {
 public:
     bool judgeSquareSum(int c) {
-        long a = 0; // to prevent overflow by square
+        long a = 0;     // to prevent overflow by square
         while (a * a <= c) {
             long bSquared = c - a * a;
             long b = sqrt(bSquared);
